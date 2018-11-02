@@ -1,0 +1,171 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  position: absolute;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  opacity: 0.3;
+  z-index: 1;
+}
+/* ---------------HEADER------------- */
+.header {
+  background-image: url("../images/background-image.jpg");
+  background-repeat: repeat-x;
+  width: 1600px;
+  height: 961px;
+  margin: 0 auto;
+}
+
+.main-logo{
+  position:relative;
+  float: left;
+
+  background-image: url("../images/ghosthost-logo.png");
+  background-repeat: no-repeat;
+
+  display: block;
+  height:29px;
+  width:133px;
+  text-indent:100%;
+  overflow: hidden;
+
+  left: 205px;
+  top: 32px;
+}
+
+
+.header-wrapper {
+  position: relative;
+  float: right;
+
+  right: 170px;
+  top: 36px;
+}
+
+.header-wrapper a{
+  display: block;
+  color: #fff;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 11pt;
+}
+
+
+nav ul li{
+  margin-left:0;
+  margin-right:10px;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0;
+  padding-top: 1px;
+  padding-right: 24px;
+  padding-left: 30px;
+}
+
+nav li:first-child{
+  margin-right: 13px;
+}
+
+nav li:nth-child(2){
+  margin-right: 15px;
+}
+
+nav li:nth-child(3){
+  margin-right: 13px;
+}
+
+nav li:nth-child(4){
+  margin-right: 12px;
+}
+
+nav li:nth-child(5){
+  margin-right: 11px;
+}
+
+
+nav li:nth-child(6){
+  margin-right: 9px;
+}
+
+.header-line{
+  position: relative;
+  width: 1195px;
+  height: 1px;
+
+  top: 90px;
+  background-color: #fff;
+  opacity: 0.1;
+}
+
+nav li a:hover{
+  padding-bottom: 37px;
+  border-bottom: 1px solid #fff;
+}
+
+.banner-text{
+  margin-top: 420px;
+  margin-left: 5px;
+  color: #fff;
+  text-align: center;
+}
+
+.banner-heading{
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 52pt;
+  font-weight: bold;
+}
+
+.banner-text p{
+  margin-top: 14px;
+  font-family: "Georgia", serif;
+  font-style: italic;
+  font-size: 22pt;
+  line-height: 44px;
+  letter-spacing: 1px;
+}
+
+.logreg{
+  
+  margin-top: 340px;
+  height: 120px;
+  background: linear-gradient(103deg, #21424b 790px, #2fab6c 50%);
+  text-align: center;
+}
+
+.logreg a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 600;
+  font-size: 16pt;
+  letter-spacing: 1px;
+  padding-top: 48px;
+}
+
+.login {
+  position: relative;
+  float: left;
+  padding-left: 470px;
+}
+
+.register{
+  position: relative;
+  float: right;
+  padding-right: 445px;
+}
+
+.logreg a:hover{
+  opacity: 0.3;
+}
