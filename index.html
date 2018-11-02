@@ -4,8 +4,10 @@
   <link href="styles/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <script src="https://use.fontawesome.com/9e169d9b5e.js"></script>
 </head>
 <body>
+  <img src="images/homepage.jpg"/>
   <header class="header">
     <div class="main-logo">
       <a class="home-link" href="index.html"><h1>Ghost Host Homepage</h1></a>
@@ -31,13 +33,39 @@
   </header>
 
   <main>
-    <div class="domain-wrapper">
-      <header class="domain-header">
-        <h2 class="domain-heading">Would you like to buy a new domain ?</h2>
-        <p class="domain-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id molestier.</p>
-      </header>
-    </div>
-  </main>
+      <div class="domain-wrapper">
+        <header class="domain-header">
+          <h2 class="domain-heading">Would you like to buy a new domain ?</h2>
+          <p class="domain-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id molestier.</p>
+        </header>
+      
+  
+        <form class="domain-form" action="#" method="post">
+          <label class="domain-label" for="domain-input">www.</label>
+          <input class="domain-input" type="text" name="domain-input" id="domain-input" placeholder="What do you want?" onfocus="this.placeholder = ''">
+          <div class="domain-select-wrapper">
+            <select class="domain-select" name="domain-select" id="domain-select">
+              <option class="option" value="com" selected>.com</option>
+              <option class="option" value="org">.net</option>
+            </select>
+          </div>
+        </form>
+          <table class="domain-table">
+            <tr>
+              <th class="table-header" scope="row">.COM</th>
+              <td>1 year</td>
+              <td>$9.00 USD</td>
+              <td>Transfer Price No</td>
+            </tr>
+            <tr>
+              <th class="table-header" scope="row">.NET</th>
+              <td>1 year</td>
+              <td>$9.00 USD</td>
+              <td>Transfer Price No</td>	
+            </tr>
+          </table>
+      </div>  
+    </main>
 
   <footer>
 

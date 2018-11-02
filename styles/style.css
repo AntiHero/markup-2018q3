@@ -126,12 +126,12 @@ nav li a:hover{
 }
 
 .banner-text p{
-  margin-top: 14px;
+  margin-top: 9px;
   font-family: "Georgia", serif;
   font-style: italic;
   font-size: 22pt;
-  line-height: 44px;
-  letter-spacing: 1px;
+  line-height: 46px;
+  letter-spacing: 1.1px;
 }
 
 .logreg{
@@ -168,4 +168,96 @@ nav li a:hover{
 
 .logreg a:hover{
   opacity: 0.3;
+}
+
+/*-------DOMAIN-------*/
+.domain-wrapper{
+  width:1600px;
+  margin-top: 100px;
+  padding-top: 90px;
+  padding-left: 1px;
+  text-align: center;
+}
+
+.domain-heading {
+  font-family: 'Arial', sans-serif;
+  letter-spacing: -0.8px;
+  color: #383838;
+}
+
+.domain-text{
+  line-height: 64px;
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 0.7px;
+  color: #9d9d9d;
+}
+
+.domain-form{
+  margin-top: 25px;
+  border: 1px solid #d9d9d9;
+  width: 888px;
+  height: 48px;
+}
+
+.domain-input {
+  padding-left: 12px;
+  margin-top: 15px;
+  width: 721px;
+  border: 0;
+	font-size: 15px;
+  font-weight: 500;
+}
+
+.domain-label{
+  display: inline-block;
+  padding: 7px 18px 7px 8px;
+  font-family: 'Arial', sans-serif;
+  font-size: 12pt;
+  color: #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+}
+
+.domain-select-wrapper {
+  display: block;
+  float: right;
+  position: relative;
+  top: 8px;
+  right: 15px;
+  
+}
+
+.domain-table {
+  margin-top: 200px;
+}
+
+.domain-select{
+  padding: 7px 12px 7px 10px;
+  border: none;
+  border-left: 1px solid #d9d9d9;
+  font-family: 'Arial', sans-serif;
+  font-size: 12pt;
+  color: #d9d9d9;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.domain-input {
+  outline: none;
+}
+
+.domain-select {
+  outline:none;
+}
+
+.domain-select-wrapper:after {
+  display: block;
+  font-family: FontAwesome;
+  content: "\f107";
+/*--adjust as necessary--*/
+  color: #d9d9d9;
+  font-size: 18px;
+  position: relative;
+  float: right;
+  top: 8px;
 }
