@@ -254,10 +254,88 @@ nav li a:hover{
   display: block;
   font-family: FontAwesome;
   content: "\f107";
-/*--adjust as necessary--*/
+
   color: #d9d9d9;
   font-size: 18px;
   position: relative;
   float: right;
   top: 8px;
 }
+
+.domain-table {
+	position: relative;
+
+	margin: 40px auto;
+	width: 890px;
+
+	text-align: center;
+	font-size: 14px;
+	line-height: 110%;
+	text-transform: capitalize;
+	color: #cbcbcb;
+  border-collapse: collapse;
+  background-color: 
+}
+
+.domain-table td,
+.domain-table th {
+	position: relative;
+	padding: 40px 0;
+	width: 25%;
+	border: 1px solid #d9d9d9; 
+}
+
+.domain-table tr:first-child th::before {
+	position: absolute;
+	content: "";
+	width: 12%;
+	height: 100%;
+	display: block;
+	background-color: white;
+}
+
+.domain-table tr:first-child td:last-child::after {
+	position: absolute;
+	content: "";
+	width: 12%;
+	height: 100%;
+	display: block;
+	left: 88%;
+	background-color: white;
+}
+
+.domain-table tr:last-child td::before {
+	position: absolute;
+	content: "";
+	width: 13px;
+	height: 13px;
+	display: block;
+  top: -6px;
+  left: -8px;
+	background-color: white;
+}
+
+.domain-table tr:first-child td::before {
+	position: absolute;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: block;
+	top: 0px;
+	left: -8px;
+	background-color: white;
+}
+
+.domain-table tr:last-child td::after {
+	position: absolute;
+	content: "";
+	width: 16px;
+	height: 16px;
+	display: block;
+	bottom: 0px;
+	left: -8px;
+	background-color: white;
+}
+
+
+/*----------HOSTING------------*/
