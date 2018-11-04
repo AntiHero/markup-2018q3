@@ -648,7 +648,7 @@ nav li a:hover{
 
 .about-item {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -722,6 +722,7 @@ nav li a:hover{
 /*---------COMMENTS----------*/
 .comment {
   max-width: 1600px;
+  height:190px;
   background: url(../images/blog-background.jpg) no-repeat;
   background-size: cover;
 }
@@ -732,7 +733,7 @@ nav li a:hover{
 }
 
 .comment-block-text {
-  font-family: 'Lato', sans-serif;
+  font-family: 'lato-light', sans-serif;
   text-align: center;
   color: white;
   font-size: 20px;
@@ -741,10 +742,11 @@ nav li a:hover{
 }
 
 .comment-block-name {
-  font-family: 'Lato', sans-serif;
+  font-family: 'lato-light', sans-serif;
   text-align: center;
   color: white;
   font-size: 20px;
+  padding-top: 35px;
   padding-right: 10px;
 }
 
@@ -790,3 +792,4 @@ nav li a:hover{
 .comment-block-item.active {
   display: block;
 }
+
