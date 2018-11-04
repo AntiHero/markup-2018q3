@@ -718,3 +718,75 @@ nav li a:hover{
 .about-social-link:hover{
   color: #2288b8;
 }
+
+/*---------COMMENTS----------*/
+.comment {
+  max-width: 1600px;
+  background: url(../images/blog-background.jpg) no-repeat;
+  background-size: cover;
+}
+
+.comment-bg {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 45px 0 50px 0;
+}
+
+.comment-block-text {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+.comment-block-name {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.comment-block-click-item {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border: 1px solid white;
+  border-radius: 50px;
+  margin-left: 12px;
+  cursor: pointer;
+  background: transparent;
+  padding: 0;
+}
+
+.comment-block-click-item.active {
+  background: white;
+}
+
+.comment-block-click {
+  display: inline-block;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.comment-bg-block {
+  /*width: 80%;*/
+  margin: 0 auto;
+}
+
+.comment-block-names {
+  text-align: center;
+}
+
+.comment-block-name,
+.comment-block-item {
+  display: none;
+}
+
+.comment-block-name.active {
+  display: inline-block;
+}
+
+.comment-block-item.active {
+  display: block;
+}

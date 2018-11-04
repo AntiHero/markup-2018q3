@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="styles/style.css" rel="stylesheet">
+	<link href="styles/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <script src="https://use.fontawesome.com/9e169d9b5e.js"></script>
+	<script src="https://use.fontawesome.com/9e169d9b5e.js"></script>
+	<script src="js/script.js"></script>
 </head>
 <body>
  
@@ -253,7 +256,7 @@
 					<div class="dashed-border"></div>
 				</div>
 			</div>
-			<section class="about">
+			<div class="about">
 				<div class="about-text">
 					<h2 class="about-heading"><span>About</span> Us</h2>
 					<p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent feugiat eget diam sit amet molestie.Curabitur. ut ipsum bibendum tortor lacinia fermentum nec joeıa. Mauris at augue libero. Fusce posuere, sapien nec poır. Uaee augsuada sed mauris in tincidunt...</p>
@@ -320,9 +323,43 @@
 						</li>
 					</ul>
 				</div>
-			</section>	
+			</div>	
 			
-
+			<div class="comment">
+				<div class="comment-bg">
+					<div class="container-block">
+						<div class="comment-bg-block">
+							<div class="comment-block">
+									<div id="comment-1" class="comment-block-item active">
+										<p class="comment-block-text">
+											“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui interdum dolor pulvinar vitae.”
+										</p>
+									</div>
+									<div id="comment-2" class="comment-block-item">
+										<p class="comment-block-text">
+											“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui interdum dolor pulvinar ...”
+										</p>
+									</div>
+									<div id="comment-3" class="comment-block-item">
+										<p class="comment-block-text">
+											“Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui interdum dolor ...”
+										</p>
+									</div>
+								</div>
+								<div class="comment-block-names">
+									<span id="name-1" class="comment-block-name active">John Doe</span>
+									<span id="name-2" class="comment-block-name">Johnathan Doe</span>
+									<span id="name-3" class="comment-block-name">Jonny Doe</span>
+									<div class="comment-block-click">
+										<button id="block-click-1" class="comment-block-click-item active" onclick="slide_0()"></button>
+										<button id="block-click-2" class="comment-block-click-item" onclick="slide_1()"></button>
+										<button id="block-click-3" class="comment-block-click-item" onclick="slide_2()"></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
     </main>
 
   <footer>
