@@ -638,7 +638,7 @@ nav li a:hover{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row; 
-  justify-content: start; 
+  justify-content: center; 
   padding-top: 5px;
 }
 
@@ -793,3 +793,79 @@ nav li a:hover{
   display: block;
 }
 
+.service {
+  max-width: 1300px;
+  display: flex;
+  padding: 100px 0 95px 0;
+  -ms-flex-pack: justify;
+  justify-content: center;
+}
+
+.service-part {
+  width: 19%;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+.service-part-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  text-align: center;
+  margin: 0 auto 17px auto;
+}
+
+.service-part-icon i {
+  color: #ffffff;
+  font-size: 28px;
+  line-height: 60px;
+}
+
+.service-part-icon.yellow {
+  background: #f1c40f;
+}
+
+.service-part:hover .service-part-icon.yellow {
+  box-shadow: 0rem 0rem 1rem 0 #f9d423;
+}
+
+.service-part-icon.blue {
+  background: #0faff1;
+}
+
+.service-part:hover .service-part-icon.blue {
+  box-shadow: 0rem 0rem 1rem 0 #0faff1;
+}
+
+.service-part-icon.grey {
+  background: #95a5a6;
+}
+
+.service-part:hover .service-part-icon.grey {
+  box-shadow: 0rem 0rem 1rem 0 #95a5a6;
+}
+
+.service-part-icon.red {
+  background: #f1540f;
+}
+
+.service-part:hover .service-part-icon.red {
+  box-shadow: 0rem 0rem 1rem 0 #f1540f;
+}
+
+.service-part-name {
+  font-family: 'lato-heavy', sans-serif;
+  font-size: 18px;
+  color: #303030;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.service-part-text {
+  font-family: 'lato-light', sans-serif;
+  font-size: 16px;
+  color: #7e7e7e;
+  line-height: 22px;
+}
