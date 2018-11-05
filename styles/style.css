@@ -13,7 +13,13 @@ img {
   opacity: 0.3;
   z-index: 1;
 }
-/* ---------------HEADER------------- */
+
+
+/*---------------------------*/
+/* ---------HEADER---------- */
+/*---------------------------*/
+
+
 .header {
   background-image: url("../images/background-image.jpg");
   background-repeat: repeat-x;
@@ -170,7 +176,10 @@ nav li a:hover{
   opacity: 0.3;
 }
 
-/*-------DOMAIN-------*/
+/*------------------------*/
+/*--------DOMAIN----------*/
+/*------------------------*/
+
 .domain-wrapper{
   width:1600px;
   margin-top: 100px;
@@ -337,8 +346,10 @@ nav li a:hover{
 	background-color: white;
 }
 
-
+/*-----------------------------*/
 /*----------HOSTING------------*/
+/*-----------------------------*/
+
 .hosting {
   margin-top: 92px;
   max-width: 1600px;
@@ -718,12 +729,13 @@ nav li a:hover{
 .about-social-link:hover{
   color: #2288b8;
 }
-
+/*---------------------------*/
 /*---------COMMENTS----------*/
+/*---------------------------*/
 .comment {
   max-width: 1600px;
   height:190px;
-  background: url(../images/blog-background.jpg) no-repeat;
+  background: url(../images/comment-background.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -772,7 +784,6 @@ nav li a:hover{
 }
 
 .comment-bg-block {
-  /*width: 80%;*/
   margin: 0 auto;
 }
 
@@ -868,4 +879,205 @@ nav li a:hover{
   font-size: 16px;
   color: #7e7e7e;
   line-height: 22px;
+}
+
+/*---------------------------*/
+/*-----------FOOTER----------*/
+/*---------------------------*/
+
+footer {
+  position: relative;
+  width: 1600px;
+  height: 294px;
+  background-color: #2a2a2a;
+}
+
+footer .logo-image {
+  display: block;
+  float: left;
+  top: 22px;
+  left: 200px;
+  height:29px;
+  width:133px;
+  background-image: url("../images/ghosthost-logo.png");
+  background-repeat: no-repeat;
+  position: relative;
+  opacity: 0.5;
+
+}
+
+.logo-image a{
+  text-decoration: none;
+}
+
+.nav {
+  position: absolute;
+  right: 201px;
+  overflow: hidden;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+}
+
+.nav li {
+  list-style: none;
+  float: right;
+}
+
+.nav li a {
+  display: block;
+  margin-left: 46px;
+  padding: 31px 0px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  opacity: 0.3;
+}
+
+.nav li a:hover {
+  opacity: 1;
+}
+
+footer hr {
+  position: absolute;
+  top: 75px;
+  left: 201px;
+  width: 1196px;
+  margin: 0px;
+  border-top-width: 0px;
+  opacity: 0.3;
+}
+
+.area-container {
+  position: absolute;
+  display: inline-block;
+  box-sizing: border-box;
+  top: 100px;
+  left: 0px;
+  width: 1600px;
+  height: 150px;
+  overflow: hidden;
+}
+
+.area-container .area-1 {
+  position: relative;
+  top: 0px;
+  left: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 378px;
+  height: 150px;
+  border-right: 1px solid #686868;
+}
+
+.area-container .area-1 p {
+  line-height: 26px;  
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #686868;
+}
+
+.area-container .area-1 p:first-child {
+  margin-bottom: 13px;
+}
+
+.area-container .area-1 p:last-child {
+  margin-top: 13px;
+}
+
+.area-container .area-1 p:last-child span {
+  font-weight: bold;
+}
+
+.area-container .area-2 {
+  position: relative;
+  top: -6px;
+  left: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 495px;
+  height: 150px;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  color: #686868;
+}
+
+.area-container .area-2 ul {
+  position: relative;
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  line-height: 29px;
+  list-style: none;
+}
+
+.area-container .area-2 ul:first-child {
+  top: 3px;
+  left: 104px;
+}
+
+.area-container .area-2 ul:last-child {
+  top: 3px;
+  left: 172px;
+}
+
+.area-container .area-2 ul li span {
+  position: relative;
+  left: 4px;
+}
+
+.area-container .area-2 ul li:hover, footer .area-container .area-2 ul li span:hover {
+  left: 11px;
+  color: white;
+}
+
+.area-container .area-3 {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  top: 5px; 
+  left: 200px;
+  width: 319px;
+  height: 150px;
+  padding-left: 82px;
+  border-left: 1px solid #686868;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 29px;
+  color: #686868;
+}
+
+.area-container .area-3 a {
+  position: relative;
+  top: 15px;
+  display: block;
+  text-decoration: none;
+  color: #686868;
+}
+
+.area-container .area-3 a:first-child {
+  font-size: 14px;
+}
+
+.area-container .area-3 a:last-of-type {
+  top: 15px;
+  letter-spacing: -0.2px;
+}
+
+.area-container .area-3 a i {
+  margin-right: 14px;
+}
+
+.area-container .area-3 a:last-of-type i {
+  margin-right: 11px;
+}
+
+.area-container .area-3 a:hover {
+  color: white;
+}
+
+.area-container .area-3 p {
+  position: relative;
 }
